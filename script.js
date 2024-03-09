@@ -3,8 +3,8 @@ score=0;//global variable taken
 //i want that score should increase at the time when the dragon cross rino
 cross=true;
 //including the
-audio=new Audio('music/8-bit-background-music-for-arcade-game-come-on-mario-164702.mp3') ;
-audiogo=new Audio('music/negative_beeps-6008.mp3');
+audio=new Audio('8-bit-background-music-for-arcade-game-come-on-mario-164702.mp3') ;
+audiogo=new Audio('negative_beeps-6008.mp3');
 setTimeout(() => {
     audio.play();
 }, 1000);
